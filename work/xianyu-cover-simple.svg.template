@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#080d18"/><stop offset=".62" stop-color="#101929"/><stop offset="1" stop-color="#080d17"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#263a56" stop-opacity=".66"/><stop offset=".7" stop-color="#1a2a40" stop-opacity=".2"/><stop offset="1" stop-color="#1a2a40" stop-opacity="0"/></radialGradient>
+    <linearGradient id="topline"><stop stop-color="#ef6472"/><stop offset=".5" stop-color="#dcb570"/><stop offset="1" stop-color="#69c9f1"/></linearGradient>
+    <linearGradient id="rule"><stop stop-color="#d1af73" stop-opacity="0"/><stop offset=".15" stop-color="#d1af73" stop-opacity=".55"/><stop offset=".85" stop-color="#d1af73" stop-opacity=".55"/><stop offset="1" stop-color="#d1af73" stop-opacity="0"/></linearGradient>
+    <clipPath id="screenClip"><rect x="68" y="345" width="944" height="423" rx="7"/></clipPath>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <ellipse cx="540" cy="600" rx="570" ry="410" fill="url(#glow)"/>
+  <rect width="1080" height="8" fill="url(#topline)"/>
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <text x="76" y="108" fill="#d7bc80" font-size="22" font-weight="700" letter-spacing="5">纯本地 · 手机横屏</text>
+    <text x="76" y="220" fill="#f4f5fa" font-size="77" font-weight="900" letter-spacing="1">游戏王<tspan fill="#f6d68d">对战计数器</tspan></text>
+    <text x="76" y="270" fill="#bcc9dc" font-size="30" font-weight="600" letter-spacing="2">双人生命值，一屏看清</text>
+  </g>
+  <rect x="69" y="366" width="942" height="415" rx="12" fill="#000" opacity=".65" filter="url(#shadow)"/>
+  <rect x="66" y="343" width="948" height="427" rx="10" fill="#080d19" stroke="#bca271" stroke-width="2"/>
+  <image x="68" y="345" width="944" height="423" preserveAspectRatio="none" clip-path="url(#screenClip)" xlink:href="data:image/png;base64,IMAGE_DATA"/>
+  <rect x="76" y="832" width="928" height="1" fill="url(#rule)"/>
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <text x="540" y="913" fill="#f4f5fa" font-size="31" font-weight="700">快捷调整 LP <tspan fill="#d4b77c">·</tspan> 骰子与硬币 <tspan fill="#d4b77c">·</tspan> 先手判定</text>
+    <text x="540" y="984" fill="#d1d9e5" font-size="24" letter-spacing="3">单个 HTML 文件 <tspan fill="#f2d087">· 无需联网</tspan></text>
+  </g>
+</svg>
